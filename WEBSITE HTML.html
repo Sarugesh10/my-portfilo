@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="SARUGESH" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background: #f4f4f4;
+        color: #332S;
+      }
+      
+      header {
+        background: #333;
+        color: yellow;
+        padding: 1rem 2rem;
+        text-align: center;
+      }
+      
+      nav a {
+        color: yellow;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+      
+      section {
+        padding: 2rem;
+        background: yellow;
+        margin: 1rem;
+        border-radius: 8px;
+      }
+      
+      .project {
+        margin-top: 1rem;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      form input, form textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 1rem;
+      }
+      
+      button {
+        background: #333;
+        background: yellow;
+        color: khaki ;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      button:hover {
+        background: #555;
+      }
+      
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background: #333;
+        color: khaki;
+      }
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm  Sarugesh a beginer developer who loves to build cool stuff.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project One</h3>
+      <p>A description of my first project.</p>
+    </div>
+    <div class="project">
+      <h3>Project Two</h3>
+      <p>A description of my second project.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 SARUGESH</p>
+   
+  </footer>
+  
+  });
+<script src="script.js"document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+<script>
+</script>
+document.getElementById('form-message').textContent = 'Thanks for reaching out! I will get back to you soon.';
+this.reset();
+</script>
+ 
+</body>
+</html>
